@@ -33,12 +33,48 @@ export const routes = [
     redirect: "/about/"
   },
   {
+    name: "v-302b0090",
+    path: "/algorithm/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-302b0090").then(next)
+    },
+  },
+  {
+    path: "/algorithm/index.html",
+    redirect: "/algorithm/"
+  },
+  {
     name: "v-3beebdaa",
     path: "/about/a.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-3beebdaa").then(next)
     },
+  },
+  {
+    name: "v-68bcb028",
+    path: "/interview/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-68bcb028").then(next)
+    },
+  },
+  {
+    path: "/interview/index.html",
+    redirect: "/interview/"
+  },
+  {
+    name: "v-5a0b2c28",
+    path: "/notes/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5a0b2c28").then(next)
+    },
+  },
+  {
+    path: "/notes/index.html",
+    redirect: "/notes/"
   },
   {
     name: "v-c2c3fe9c",

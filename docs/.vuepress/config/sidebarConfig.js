@@ -1,5 +1,26 @@
-module.exports  = [
-    { text: '面试', link: '/' },
-    { text: 'Guide', link: '/guide/' },
-    // { text: 'External', link: 'https://google.com' },
-]
+
+module.exports  = {
+    '/about/': [
+        '',     /* /foo/ */
+        'one',  /* /foo/one.html */
+        'two'   /* /foo/two.html */
+      ],
+
+      '/notes/': [
+        '',      /* /bar/ */
+        'three', /* /bar/three.html */
+        'four'   /* /bar/four.html */
+      ],
+
+      '/interview/': [
+        '',      /* /bar/ */
+        'three', /* /bar/three.html */
+        'four'   /* /bar/four.html */
+      ],
+
+      '/algorithm/': [
+        '',      /* /bar/ */
+        'three', /* /bar/three.html */
+        'four'   /* /bar/four.html */
+      ],
+}

@@ -1,11 +1,11 @@
 ---
 sidebar: auto
 home: true
-heroImage: /hero.png
-heroText: Hero 标题
-tagline: Hero 副标题
-actionText: 快速上手 →
-actionLink: /zh/guide/
+heroImage: /image/165068c26859dd5a8f80dd8e0442a56.jpg
+heroText: 内容管理系统
+tagline: 作者:casey
+actionText: 关于作者 →
+actionLink: /about/
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
@@ -16,6 +16,6 @@ features:
 footer: 粤ICP备19120525号 联系电话：18813216278
 ---
 # Hello VuePress1 
-this is 2222 <Bar :title="213"/>
-# Hello VuePress2
-# Hello VuePress3  
+this is 2222 
+<Bar :title="213"/> 
+<Vssue title="casey_blog" options="{ locale: 'zh-CN' }" autoCreateIssue />

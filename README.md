@@ -5,19 +5,18 @@
 
 #### 软件架构
 软件架构说明
-
-
+采用vuepress进行搭建 里面会有相关的评论功能 导航栏 侧边栏 主页等等功能
+后续需要加入一键编译 一键部署等功能
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  git clone https://gitee.com/ckx1988/casey_blog.git
+2.  npm install
+3.  npm run dev
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  该博客的前台刚刚搭建完毕 现在准备接入评论功能
+2.  后续会规划出来几个模块 然后准备接入一些插件
 
 #### 参与贡献
 

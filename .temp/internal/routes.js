@@ -21,26 +21,6 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-5c920b54",
-    path: "/about/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5c920b54").then(next)
-    },
-  },
-  {
-    path: "/about/index.html",
-    redirect: "/about/"
-  },
-  {
-    name: "v-346757cb",
-    path: "/about/b.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-346757cb").then(next)
-    },
-  },
-  {
     name: "v-3beebdaa",
     path: "/about/a.html",
     component: GlobalLayout,
@@ -61,6 +41,18 @@ export const routes = [
     redirect: "/algorithm/"
   },
   {
+    name: "v-5c920b54",
+    path: "/about/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5c920b54").then(next)
+    },
+  },
+  {
+    path: "/about/index.html",
+    redirect: "/about/"
+  },
+  {
     name: "v-68bcb028",
     path: "/interview/",
     component: GlobalLayout,
@@ -71,6 +63,14 @@ export const routes = [
   {
     path: "/interview/index.html",
     redirect: "/interview/"
+  },
+  {
+    name: "v-346757cb",
+    path: "/about/b.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-346757cb").then(next)
+    },
   },
   {
     name: "v-c2c3fe9c",

@@ -12,7 +12,7 @@ module.exports = {
       '/': {
         lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
         title: '内容管理系统',
-        description: 'Vue-powered Static Site Generator'
+        description: 'Vue 驱动的静态网站生成器'
       },
       '/zh/': {
         lang: 'zh-CN',

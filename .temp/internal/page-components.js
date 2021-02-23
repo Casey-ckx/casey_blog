@@ -3,11 +3,11 @@
  */
 export default {
   "v-59a501ba": () => import("C:\\Users\\admin\\Desktop\\study\\毕业设计前台\\casey_blog\\docs\\README.md"),
-  "v-5c920b54": () => import("C:\\Users\\admin\\Desktop\\study\\毕业设计前台\\casey_blog\\docs\\about\\README.md"),
-  "v-346757cb": () => import("C:\\Users\\admin\\Desktop\\study\\毕业设计前台\\casey_blog\\docs\\about\\b.md"),
   "v-3beebdaa": () => import("C:\\Users\\admin\\Desktop\\study\\毕业设计前台\\casey_blog\\docs\\about\\a.md"),
   "v-302b0090": () => import("C:\\Users\\admin\\Desktop\\study\\毕业设计前台\\casey_blog\\docs\\algorithm\\README.md"),
+  "v-5c920b54": () => import("C:\\Users\\admin\\Desktop\\study\\毕业设计前台\\casey_blog\\docs\\about\\README.md"),
   "v-68bcb028": () => import("C:\\Users\\admin\\Desktop\\study\\毕业设计前台\\casey_blog\\docs\\interview\\README.md"),
+  "v-346757cb": () => import("C:\\Users\\admin\\Desktop\\study\\毕业设计前台\\casey_blog\\docs\\about\\b.md"),
   "v-c2c3fe9c": () => import("C:\\Users\\admin\\Desktop\\study\\毕业设计前台\\casey_blog\\docs\\js.md"),
   "v-5a0b2c28": () => import("C:\\Users\\admin\\Desktop\\study\\毕业设计前台\\casey_blog\\docs\\notes\\README.md") 
 }

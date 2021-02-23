@@ -28,22 +28,29 @@ module.exports = {
             // 其他的 Vssue 配置
             ...vssue
         },
+        '@vuepress/medium-zoom': {
+          selector: 'img'
+        },
+        'vuepress-plugin-auto-sidebar': {},
+        '@vuepress/back-to-top': {},
+        '@vuepress/blog': {},
+        // 图片缩放插件
+        '@vuepress/nprogress':{},
     },
     themeConfig: {
+        // 启用页面滚动效果。
+        smoothScroll: true,
         // 默认值：false
         displayAllHeaders: true ,
         // 侧边栏
-        sidebar: {
-          ...aboutSidebarConfig,
-          // fallback
-          '/': [
-            '',        /* / */
-            'contact', /* /contact.html */
-            'about'    /* /about.html */
-          ]
-        },
+        // sidebar: [
+        //   ...aboutSidebarConfig,
+        // ],
         // 头部导航栏
         nav,
+        markdown:{
+          lineNumbers: true
+        },
         // 最后一次更新的时间搓
         lastUpdated: '最近一次更新于',
         logo:'/image/1613990992(1).jpg'

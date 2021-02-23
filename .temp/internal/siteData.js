@@ -8,8 +8,9 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "Home",
+      "title": "内容管理系统",
       "frontmatter": {
+        "title": "内容管理系统",
         "sidebar": "auto",
         "home": true,
         "heroImage": "/image/165068c26859dd5a8f80dd8e0442a56.jpg",
@@ -55,6 +56,11 @@ export const siteData = {
           "slug": "自我介绍"
         },
         {
+          "level": 3,
+          "title": "目前正在学习",
+          "slug": "目前正在学习"
+        },
+        {
           "level": 2,
           "title": "自我介绍2",
           "slug": "自我介绍2"
@@ -78,10 +84,25 @@ export const siteData = {
       "lastUpdated": "2021-2-22 19:36:34"
     },
     {
+      "title": "关于我测试2",
+      "frontmatter": {
+        "title": "关于我测试2"
+      },
+      "regularPath": "/about/b.html",
+      "relativePath": "about/b.md",
+      "key": "v-346757cb",
+      "path": "/about/b.html"
+    },
+    {
       "title": "关于我",
       "frontmatter": {
         "title": "关于我",
-        "sidebar": "auto"
+        "tags": [
+          "JavaScript",
+          "Vue"
+        ],
+        "author": "Billyyyyy3320",
+        "location": "广东深圳"
       },
       "regularPath": "/about/a.html",
       "relativePath": "about/a.md",
@@ -169,14 +190,8 @@ export const siteData = {
     }
   ],
   "themeConfig": {
+    "smoothScroll": true,
     "displayAllHeaders": true,
-    "sidebar": {
-      "/": [
-        "",
-        "contact",
-        "about"
-      ]
-    },
     "nav": [
       {
         "text": "面试",
@@ -195,6 +210,9 @@ export const siteData = {
         "link": "/about/"
       }
     ],
+    "markdown": {
+      "lineNumbers": true
+    },
     "lastUpdated": "最近一次更新于",
     "logo": "/image/1613990992(1).jpg"
   },

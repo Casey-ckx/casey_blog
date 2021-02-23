@@ -1,4 +1,5 @@
 ---
+title: 内容管理系统
 sidebar: auto
 home: true
 heroImage: /image/165068c26859dd5a8f80dd8e0442a56.jpg
@@ -16,6 +17,3 @@ features:
 footer: 粤ICP备19120525号 联系电话：18813216278
 ---
 # Hello VuePress1 
-this is 2222 
-<Bar :title="213"/> 
-<Vssue title="casey_blog" options="{ locale: 'zh-CN' }" autoCreateIssue />

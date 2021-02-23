@@ -9,6 +9,14 @@ import GlobalLayout from "C:\\Users\\admin\\Desktop\\study\\毕业设计前台\\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-346757cb",
+    path: "/about/b.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-346757cb").then(next)
+    },
+  },
+  {
     name: "v-59a501ba",
     path: "/",
     component: GlobalLayout,
@@ -29,30 +37,6 @@ export const routes = [
     },
   },
   {
-    name: "v-302b0090",
-    path: "/algorithm/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-302b0090").then(next)
-    },
-  },
-  {
-    path: "/algorithm/index.html",
-    redirect: "/algorithm/"
-  },
-  {
-    name: "v-5c920b54",
-    path: "/about/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5c920b54").then(next)
-    },
-  },
-  {
-    path: "/about/index.html",
-    redirect: "/about/"
-  },
-  {
     name: "v-68bcb028",
     path: "/interview/",
     component: GlobalLayout,
@@ -65,12 +49,16 @@ export const routes = [
     redirect: "/interview/"
   },
   {
-    name: "v-346757cb",
-    path: "/about/b.html",
+    name: "v-5c920b54",
+    path: "/about/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-346757cb").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5c920b54").then(next)
     },
+  },
+  {
+    path: "/about/index.html",
+    redirect: "/about/"
   },
   {
     name: "v-c2c3fe9c",
@@ -91,6 +79,18 @@ export const routes = [
   {
     path: "/notes/index.html",
     redirect: "/notes/"
+  },
+  {
+    name: "v-302b0090",
+    path: "/algorithm/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-302b0090").then(next)
+    },
+  },
+  {
+    path: "/algorithm/index.html",
+    redirect: "/algorithm/"
   },
   {
     path: '*',

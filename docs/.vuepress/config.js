@@ -1,6 +1,7 @@
 const nav = require('./config/navConfig.js')  
 const vssue = require('./config/vssueConfig')
 const configureWebpack = require('./config/configureWebpack')
+const aboutSidebarConfig =  require('../about/sidebarConfig')
 module.exports = {
     configureWebpack:{
       ...configureWebpack
@@ -32,11 +33,19 @@ module.exports = {
         // 默认值：false
         displayAllHeaders: true ,
         // 侧边栏
-        sidebar: 'auto',
+        sidebar: {
+          ...aboutSidebarConfig,
+          // fallback
+          '/': [
+            '',        /* / */
+            'contact', /* /contact.html */
+            'about'    /* /about.html */
+          ]
+        },
         // 头部导航栏
         nav,
         // 最后一次更新的时间搓
-        lastUpdated: 'Last Updated',
+        lastUpdated: '最近一次更新于',
         logo:'/image/1613990992(1).jpg'
         
     }

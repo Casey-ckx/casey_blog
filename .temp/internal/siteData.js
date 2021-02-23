@@ -37,7 +37,7 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-59a501ba",
       "path": "/",
-      "lastUpdated": "2021-2-20 19:29:57"
+      "lastUpdated": "2021-2-22 19:36:34"
     },
     {
       "title": "关于我的自我介绍",
@@ -75,25 +75,7 @@ export const siteData = {
           "slug": "自我介绍5"
         }
       ],
-      "lastUpdated": "2021-2-20 19:29:57"
-    },
-    {
-      "title": "这是标题1",
-      "frontmatter": {
-        "0": "t",
-        "1": "i",
-        "2": "t",
-        "3": "l",
-        "4": "e",
-        "5": ":",
-        "6": "测",
-        "7": "试",
-        "8": "1"
-      },
-      "regularPath": "/algorithm/",
-      "relativePath": "algorithm/README.md",
-      "key": "v-302b0090",
-      "path": "/algorithm/"
+      "lastUpdated": "2021-2-22 19:36:34"
     },
     {
       "title": "关于我",
@@ -132,10 +114,39 @@ export const siteData = {
         "7": "试",
         "8": "1"
       },
+      "regularPath": "/algorithm/",
+      "relativePath": "algorithm/README.md",
+      "key": "v-302b0090",
+      "path": "/algorithm/",
+      "lastUpdated": "2021-2-22 19:36:34"
+    },
+    {
+      "title": "这是标题1",
+      "frontmatter": {
+        "0": "t",
+        "1": "i",
+        "2": "t",
+        "3": "l",
+        "4": "e",
+        "5": ":",
+        "6": "测",
+        "7": "试",
+        "8": "1"
+      },
       "regularPath": "/interview/",
       "relativePath": "interview/README.md",
       "key": "v-68bcb028",
-      "path": "/interview/"
+      "path": "/interview/",
+      "lastUpdated": "2021-2-22 19:36:34"
+    },
+    {
+      "title": "这是我的第一篇md",
+      "frontmatter": {},
+      "regularPath": "/js.html",
+      "relativePath": "js.md",
+      "key": "v-c2c3fe9c",
+      "path": "/js.html",
+      "lastUpdated": "2021-2-20 19:29:57"
     },
     {
       "title": "这是标题1",
@@ -153,21 +164,19 @@ export const siteData = {
       "regularPath": "/notes/",
       "relativePath": "notes/README.md",
       "key": "v-5a0b2c28",
-      "path": "/notes/"
-    },
-    {
-      "title": "这是我的第一篇md",
-      "frontmatter": {},
-      "regularPath": "/js.html",
-      "relativePath": "js.md",
-      "key": "v-c2c3fe9c",
-      "path": "/js.html",
-      "lastUpdated": "2021-2-20 19:29:57"
+      "path": "/notes/",
+      "lastUpdated": "2021-2-22 19:36:34"
     }
   ],
   "themeConfig": {
     "displayAllHeaders": true,
-    "sidebar": "auto",
+    "sidebar": {
+      "/": [
+        "",
+        "contact",
+        "about"
+      ]
+    },
     "nav": [
       {
         "text": "面试",
@@ -186,7 +195,7 @@ export const siteData = {
         "link": "/about/"
       }
     ],
-    "lastUpdated": "Last Updated",
+    "lastUpdated": "最近一次更新于",
     "logo": "/image/1613990992(1).jpg"
   },
   "locales": {

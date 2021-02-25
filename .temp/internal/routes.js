@@ -17,18 +17,6 @@ export const routes = [
     },
   },
   {
-    name: "v-59a501ba",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-59a501ba").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
     name: "v-3beebdaa",
     path: "/about/a.html",
     component: GlobalLayout,
@@ -37,28 +25,16 @@ export const routes = [
     },
   },
   {
-    name: "v-68bcb028",
-    path: "/interview/",
+    name: "v-302b0090",
+    path: "/algorithm/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-68bcb028").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-302b0090").then(next)
     },
   },
   {
-    path: "/interview/index.html",
-    redirect: "/interview/"
-  },
-  {
-    name: "v-5c920b54",
-    path: "/about/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5c920b54").then(next)
-    },
-  },
-  {
-    path: "/about/index.html",
-    redirect: "/about/"
+    path: "/algorithm/index.html",
+    redirect: "/algorithm/"
   },
   {
     name: "v-c2c3fe9c",
@@ -81,16 +57,40 @@ export const routes = [
     redirect: "/notes/"
   },
   {
-    name: "v-302b0090",
-    path: "/algorithm/",
+    name: "v-68bcb028",
+    path: "/interview/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-302b0090").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-68bcb028").then(next)
     },
   },
   {
-    path: "/algorithm/index.html",
-    redirect: "/algorithm/"
+    path: "/interview/index.html",
+    redirect: "/interview/"
+  },
+  {
+    name: "v-59a501ba",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-59a501ba").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
+    name: "v-5c920b54",
+    path: "/about/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5c920b54").then(next)
+    },
+  },
+  {
+    path: "/about/index.html",
+    redirect: "/about/"
   },
   {
     path: '*',

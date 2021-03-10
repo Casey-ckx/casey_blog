@@ -8,118 +8,12 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "关于我测试2",
-      "frontmatter": {
-        "title": "关于我测试2"
-      },
-      "regularPath": "/about/b.html",
-      "relativePath": "about/b.md",
-      "key": "v-346757cb",
-      "path": "/about/b.html",
-      "lastUpdated": "2021-2-23 20:25:06"
-    },
-    {
-      "title": "关于我",
-      "frontmatter": {
-        "title": "关于我",
-        "tags": [
-          "JavaScript",
-          "Vue"
-        ],
-        "author": "Billyyyyy3320",
-        "location": "广东深圳"
-      },
-      "regularPath": "/about/a.html",
-      "relativePath": "about/a.md",
-      "key": "v-3beebdaa",
-      "path": "/about/a.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "二级标题",
-          "slug": "二级标题"
-        },
-        {
-          "level": 3,
-          "title": "三级标题",
-          "slug": "三级标题"
-        }
-      ],
-      "lastUpdated": "2021-2-23 17:01:11"
-    },
-    {
-      "title": "这是标题1",
-      "frontmatter": {
-        "0": "t",
-        "1": "i",
-        "2": "t",
-        "3": "l",
-        "4": "e",
-        "5": ":",
-        "6": "测",
-        "7": "试",
-        "8": "1"
-      },
-      "regularPath": "/algorithm/",
-      "relativePath": "algorithm/README.md",
-      "key": "v-302b0090",
-      "path": "/algorithm/",
-      "lastUpdated": "2021-2-22 19:36:34"
-    },
-    {
-      "title": "这是我的第一篇md",
-      "frontmatter": {},
-      "regularPath": "/js.html",
-      "relativePath": "js.md",
-      "key": "v-c2c3fe9c",
-      "path": "/js.html",
-      "lastUpdated": "2021-2-20 19:29:57"
-    },
-    {
-      "title": "这是标题1",
-      "frontmatter": {
-        "0": "t",
-        "1": "i",
-        "2": "t",
-        "3": "l",
-        "4": "e",
-        "5": ":",
-        "6": "测",
-        "7": "试",
-        "8": "1"
-      },
-      "regularPath": "/notes/",
-      "relativePath": "notes/README.md",
-      "key": "v-5a0b2c28",
-      "path": "/notes/",
-      "lastUpdated": "2021-2-22 19:36:34"
-    },
-    {
-      "title": "这是标题1",
-      "frontmatter": {
-        "0": "t",
-        "1": "i",
-        "2": "t",
-        "3": "l",
-        "4": "e",
-        "5": ":",
-        "6": "测",
-        "7": "试",
-        "8": "1"
-      },
-      "regularPath": "/interview/",
-      "relativePath": "interview/README.md",
-      "key": "v-68bcb028",
-      "path": "/interview/",
-      "lastUpdated": "2021-2-22 19:36:34"
-    },
-    {
       "title": "内容管理系统",
       "frontmatter": {
         "title": "内容管理系统",
         "sidebar": "auto",
         "home": true,
-        "heroImage": "/image/165068c26859dd5a8f80dd8e0442a56.jpg",
+        "heroImage": "http://127.0.0.1:7001/public/uploads/avatar/2021/03/02/1614689963739764.jpg",
         "heroText": "内容管理系统",
         "tagline": "作者:casey",
         "actionText": "关于作者 →",
@@ -142,7 +36,7 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-59a501ba",
+      "key": "v-11851a37",
       "path": "/",
       "lastUpdated": "2021-2-23 17:01:11"
     },
@@ -153,7 +47,7 @@ export const siteData = {
       },
       "regularPath": "/about/",
       "relativePath": "about/README.md",
-      "key": "v-5c920b54",
+      "key": "v-70d4af30",
       "path": "/about/",
       "headers": [
         {
@@ -188,6 +82,112 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2021-2-23 17:01:11"
+    },
+    {
+      "title": "关于我测试2",
+      "frontmatter": {
+        "title": "关于我测试2"
+      },
+      "regularPath": "/about/b.html",
+      "relativePath": "about/b.md",
+      "key": "v-29d75d37",
+      "path": "/about/b.html",
+      "lastUpdated": "2021-2-23 20:25:06"
+    },
+    {
+      "title": "关于我",
+      "frontmatter": {
+        "title": "关于我",
+        "tags": [
+          "JavaScript",
+          "Vue"
+        ],
+        "author": "Billyyyyy3320",
+        "location": "广东深圳"
+      },
+      "regularPath": "/about/a.html",
+      "relativePath": "about/a.md",
+      "key": "v-510eb2d2",
+      "path": "/about/a.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "二级标题",
+          "slug": "二级标题"
+        },
+        {
+          "level": 3,
+          "title": "三级标题",
+          "slug": "三级标题"
+        }
+      ],
+      "lastUpdated": "2021-2-23 17:01:11"
+    },
+    {
+      "title": "这是标题1",
+      "frontmatter": {
+        "0": "t",
+        "1": "i",
+        "2": "t",
+        "3": "l",
+        "4": "e",
+        "5": ":",
+        "6": "测",
+        "7": "试",
+        "8": "1"
+      },
+      "regularPath": "/interview/",
+      "relativePath": "interview/README.md",
+      "key": "v-1110f100",
+      "path": "/interview/",
+      "lastUpdated": "2021-2-22 19:36:34"
+    },
+    {
+      "title": "这是标题1",
+      "frontmatter": {
+        "0": "t",
+        "1": "i",
+        "2": "t",
+        "3": "l",
+        "4": "e",
+        "5": ":",
+        "6": "测",
+        "7": "试",
+        "8": "1"
+      },
+      "regularPath": "/algorithm/",
+      "relativePath": "algorithm/README.md",
+      "key": "v-759a49a4",
+      "path": "/algorithm/",
+      "lastUpdated": "2021-2-22 19:36:34"
+    },
+    {
+      "title": "这是标题1",
+      "frontmatter": {
+        "0": "t",
+        "1": "i",
+        "2": "t",
+        "3": "l",
+        "4": "e",
+        "5": ":",
+        "6": "测",
+        "7": "试",
+        "8": "1"
+      },
+      "regularPath": "/notes/",
+      "relativePath": "notes/README.md",
+      "key": "v-3dfe0700",
+      "path": "/notes/",
+      "lastUpdated": "2021-2-22 19:36:34"
+    },
+    {
+      "title": "这是我的第一篇md",
+      "frontmatter": {},
+      "regularPath": "/js.html",
+      "relativePath": "js.md",
+      "key": "v-73659d1e",
+      "path": "/js.html",
+      "lastUpdated": "2021-2-20 19:29:57"
     }
   ],
   "themeConfig": {

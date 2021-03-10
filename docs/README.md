@@ -2,7 +2,7 @@
 title: 内容管理系统
 sidebar: auto
 home: true
-heroImage: /image/165068c26859dd5a8f80dd8e0442a56.jpg
+heroImage: http://127.0.0.1:7001/public/uploads/avatar/2021/03/02/1614689963739764.jpg
 heroText: 内容管理系统
 tagline: 作者:casey
 actionText: 关于作者 →

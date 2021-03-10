@@ -8,10 +8,11 @@
 //     console.log('stderr: ' + stderr);
 // })
 const { exec, spawn } = require('child_process');
-exec('push.bat', (err, stdout, stderr) => {
+exec('push.bat',{windowsHide:true}, (err, stdout, stderr) => {
   if (err) {
     console.error(err);
     return;
   }
   console.log(stdout);
+  console.log('请求结束')
 });

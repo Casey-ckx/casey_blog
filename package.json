@@ -26,6 +26,7 @@
   "dependencies": {
     "@vssue/api-gitee-v5": "^1.4.7",
     "@vssue/vuepress-plugin-vssue": "^1.4.7",
+    "cross-spawn": "^7.0.3",
     "vssue": "^1.4.7"
   }
 }

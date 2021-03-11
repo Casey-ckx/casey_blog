@@ -1,3 +1,2 @@
 cd %~dp0
-npm run dev
-pause
+start cmd /k npm run dev

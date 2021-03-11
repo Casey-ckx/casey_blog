@@ -1,3 +1,4 @@
+cd %~dp0
 git status
 git add .
 git commit -m "Bash auto commit."

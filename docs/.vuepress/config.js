@@ -24,5 +24,12 @@ module.exports = {
         nav,
         // 最后一次更新的时间搓
         lastUpdated: 'Last Updated'
+    },
+    plugins: {
+      "vuepress-plugin-auto-sidebar": {
+        titleMode: "titlecase", // 标题模式
+        collapsable: true,     // 设置为true,开启折叠
+        // sidebarDepth: 0,    // 标题的深度
+      }
     }
   }

@@ -11,4 +11,5 @@ sidebar: auto
 ### 三级
 标题23123
 这是自动修改的文件
-12323
+12323[:testIcon2](图片库)[:testIcon2](图片库)[:testIcon2](图片库)
+

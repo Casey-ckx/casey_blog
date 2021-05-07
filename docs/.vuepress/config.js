@@ -30,6 +30,36 @@ module.exports = {
         titleMode: "titlecase", // 标题模式
         collapsable: true,     // 设置为true,开启折叠
         // sidebarDepth: 0,    // 标题的深度
-      }
+      },
+      // '@vssue/vuepress-plugin-vssue': {
+      //   autoCreateIssue:true,
+      //   // 设置 `platform` 而不是 `api`
+      //   platform: 'github-v4',
+      //   // 其他的 Vssue 配置
+      //   owner: 'Casey-ckx',
+      //   repo: 'casey_blog',
+      //   clientId: 'c263561dd0b4d68e13ab',
+      //   clientSecret: '1a2f045939b7edcfd8613326a20b71b6e78e69cb ',
+      // },
+      'vuepress-plugin-comment': {
+        // choosen: 'valine', 
+        // // options选项中的所有参数，会传给Valine的配置
+        options: {
+          el: '#valine-vuepress-comment',
+          appId: '4IRqva2y2zViorStR3LxPcvc-gzGzoHsz',
+          appKey: 'Xl3EO08g41Q63blqV3csEOUJ',
+          path: '<%- window.location.href %>',
+          visitor: true,
+          enableQQ:true,
+          pageSize:20
+          // path: window.location.href
+        }
+      },
+      '@vuepress/active-header-links': {
+        sidebarLinkSelector: '.sidebar-link',
+        headerAnchorSelector: '.header-anchor'
+      },
+      '@vuepress/back-to-top': {},
+      '@vuepress/nprogress': {}
     }
   }

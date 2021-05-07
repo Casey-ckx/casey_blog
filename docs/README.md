@@ -1,7 +1,7 @@
 ---
 sidebar: auto
 home: true
-heroImage: /hero.png
+heroImage: /hero.jpg
 heroText: Hero 标题
 tagline: Hero 副标题
 actionText: 快速上手 →

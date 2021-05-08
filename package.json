@@ -20,13 +20,19 @@
     "@vuepress/plugin-back-to-top": "^1.8.2",
     "@vuepress/plugin-nprogress": "^1.8.2",
     "vuepress": "^1.8.2",
-    "vuepress-plugin-auto-sidebar": "^2.2.2"
+    "vuepress-plugin-auto-sidebar": "^2.2.2",
+    "vuepress-theme-reco": "^1.6.6"
   },
   "dependencies": {
     "@vssue/api-gitee-v5": "^1.4.7",
     "@vssue/api-github-v3": "^1.4.7",
     "@vssue/api-github-v4": "^1.4.7",
     "@vssue/vuepress-plugin-vssue": "^1.4.8",
+    "@vuepress-reco/vuepress-plugin-back-to-top": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-comments": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "@vuepress-reco/vuepress-plugin-pagation": "^1.6.0",
     "valine": "^1.4.14",
     "vssue": "^1.4.7",
     "vuepress-plugin-comment": "^0.7.3"

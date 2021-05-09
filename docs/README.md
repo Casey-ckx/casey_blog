@@ -15,10 +15,11 @@ features:
   details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
 footer: 粤ICP备19120525号 联系电话：18813216278
 ---
-# Hello VuePress1 
-this is 2222 <Bar :title="213"/>
+# Hello VuePress1
+this is 2222 
 # Hello VuePress2
 # Hello VuePress ssadasd assd
 asdsad
+
 
 

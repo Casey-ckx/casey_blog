@@ -1,5 +1,4 @@
 const nav = require('./config/navConfig.js')  
-// console.log(myModule)
 module.exports = {
   base: "/casey_blog/",
   theme: 'reco',
@@ -42,15 +41,14 @@ module.exports = {
         blogConfig: { 
           category: {
             location: 2,     // 在导航栏菜单中所占的位置，默认2
-            text: 'Category' // 默认文案 “分类”
+            text: '分类' // 默认文案 “分类”
           },
           tag: {
             location: 3,     // 在导航栏菜单中所占的位置，默认3
-            text: '标签分类'      // 默认文案 “标签”
+            text: '标签'      // 默认文案 “标签”
           },
           socialLinks: [     // 信息栏展示社交信息
-            { icon: 'reco-github', link: 'https://github.com/recoluan' },
-            { icon: 'reco-npm', link: 'https://www.npmjs.com/~reco_luan' }
+            { icon: 'reco-github', link: 'https://github.com/Casey-ckx' },
           ]
         }
     },
@@ -66,7 +64,7 @@ module.exports = {
         body: [
           {
             type: 'title',
-            content: '欢迎加入QQ交流群 🎉🎉🎉',
+            content: '站主微信:18813216278,欢迎添加询问',
             style: 'text-aligin: center;'
           },
           {
@@ -75,16 +73,7 @@ module.exports = {
           }
         ],
         footer: [
-          {
-            type: 'button',
-            text: '打赏',
-            link: '/donate'
-          },
-          {
-            type: 'button',
-            text: '打赏',
-            link: '/donate'
-          }
+          // 底部内容
         ]
       },
       '@vuepress-reco/vuepress-plugin-kan-ban-niang': {
@@ -103,16 +92,6 @@ module.exports = {
       '@vuepress-reco/vuepress-plugin-pagation': {
 
       },
-      // '@vssue/vuepress-plugin-vssue': {
-      //   autoCreateIssue:true,
-      //   // 设置 `platform` 而不是 `api`
-      //   platform: 'github-v4',
-      //   // 其他的 Vssue 配置
-      //   owner: 'Casey-ckx',
-      //   repo: 'casey_blog',
-      //   clientId: 'c263561dd0b4d68e13ab',
-      //   clientSecret: '1a2f045939b7edcfd8613326a20b71b6e78e69cb ',
-      // },
       '@vuepress-reco/comments': {
         solution: 'valine',
         options: {

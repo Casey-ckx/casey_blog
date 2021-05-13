@@ -40,11 +40,11 @@ module.exports = {
         // lastUpdated: 'Last Updated'
         blogConfig: { 
           category: {
-            location: 2,     // 在导航栏菜单中所占的位置，默认2
+            location: 1,     // 在导航栏菜单中所占的位置，默认2
             text: '分类' // 默认文案 “分类”
           },
           tag: {
-            location: 3,     // 在导航栏菜单中所占的位置，默认3
+            location: 2,     // 在导航栏菜单中所占的位置，默认3
             text: '标签'      // 默认文案 “标签”
           },
           socialLinks: [     // 信息栏展示社交信息
@@ -64,16 +64,17 @@ module.exports = {
         body: [
           {
             type: 'title',
-            content: '站主微信:18813216278,欢迎添加询问',
+            content: '咨询微信:18813216278',
             style: 'text-aligin: center;'
-          },
-          {
-            type: 'image',
-            src: '/rvcode_qq.png'
           }
         ],
         footer: [
           // 底部内容
+          {
+            type: 'title',
+            content: '咨询qq:2206810251',
+            style: 'text-aligin: center;'
+          }
         ]
       },
       '@vuepress-reco/vuepress-plugin-kan-ban-niang': {
